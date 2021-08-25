@@ -15,7 +15,7 @@ const App =()=>{
     console.log(country)
     if (getCode(country)) {
       try {
-        fetch(`https://calendarific.com/api/v2/holidays?&api_key=84a6aca91a8ceffcb74f71c64b58bf46e3b02136&country=${getCode(country)}&year=${year}`)
+        fetch(`https://calendarific.com/api/v2/holidays?&api_key=335dd97287d7d8edbab55f4ac3688387f76030e6&country=${getCode(country)}&year=${year}`)
       .then((res)=>{
         return res.json()
       })
